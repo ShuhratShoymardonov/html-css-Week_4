@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 150px 150px;
+    gap: 10px 30px;
+}
+.box {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.box1 {
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+
+    /* grid-column: 2 / 3; */
+
+    /* grid-area: 2 / 2 / 3 / 3; */
+
+    /* grid-row: 2/3; */
+    
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+}

@@ -1,0 +1,281 @@
+*{
+    padding: 0;margin: 0;font-family: sans-serif;
+}
+menu{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.tel{
+    display: flex;
+}
+.menyu{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.menyu a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: #333;
+    border-right: 1px solid black;
+
+}
+a i{
+    margin-left: 10px;
+}
+.tel{
+    padding: 8px 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 20px;
+    color: blue;
+}
+.tel i{
+    margin: 0 5px;
+    font-size: 23px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 9, 219);
+}
+.body1{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(7,500px) ;
+    gap: 150px 0;
+    margin: 0 20px;
+}
+.body1 p{
+    color: #646464;
+}
+.text1{
+    margin: 80px  20px;
+}
+.h1{
+    font-size: 45px; 
+    font-weight: 100;
+    color:  rgba(0, 74, 155, 1);
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.text1 img{
+    width: 50%;
+}
+.text1 p{
+    margin: 30px 0px;
+    width: 400px;
+    color: #646464;
+}
+.text1 button{
+    font-size: 20px;
+    padding: 15px 50px;
+    background-color: rgba(235, 28, 36, 1);
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+.text2{
+    margin: 140px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+ul li {
+    margin: 10px 20px;
+}
+.text3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 100px 10px;
+
+
+}
+.text3 span{
+    font-size: 20px;
+    color:rgba(0, 74, 155, 1);
+}
+.blue_text{
+    color: rgba(0, 74, 155, 1);
+}
+.text4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin: 100px 10px; */
+}
+.text4 button{
+    /* display: inline; */
+    width: 300px;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid red;
+    color: red;
+    background-color: transparent;
+}
+.buton1{
+    display: flex;
+    justify-content: space-around;
+}
+.text5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 110px 10px;
+}
+.text5 p{
+    width: 350px;
+    color: #646464;
+}
+.red{
+    color: red;
+}
+.text6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 150px 10px;
+    width: 400px;
+}
+.text7{
+    display: flex;flex-direction: column;
+    justify-content: space-around;
+    margin: 100px 80px;
+}
+.a1{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.body2{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,100px) ;
+    gap: 50px 0;
+    margin: 50px 20px;
+    
+}
+.tex1{
+    display: grid;
+    grid-column-start: 2;
+    width: 350px;
+}
+#ic1{
+    margin: 5px;
+    color: red;
+}
+.a2{
+    margin-left: 20px;
+    color: #646464;
+    width: 350px;
+}
+.tex2{
+    grid-row: 2;
+}
+.img1{
+    grid-area: 2/2/4/4;
+    width: 350px;
+}
+.tex3{
+    grid-area: 2/3/4/5;
+}
+.tex4{
+    grid-area: 3/1/4/2;
+}
+.tex5{
+    grid-area: 3/3;
+}
+.body3{
+    width: 700px;
+    margin: 200px 350px 0 ;
+}
+
+.body4{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(4,40px) ;
+    border-top: 1px solid #000;
+    text-align: center;
+    margin: 0 30px;
+    align-items: center;
+}
+.botn2 button{
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+}
+.adres{
+    text-align: left;
+    margin-left: 150px;
+    grid-area: 2/3/5/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#wtsapp{
+    grid-area: 4/1;
+}
+p i{
+    color: blue;
+    font-size: 20px;
+}
+.img2{
+    display: none;
+}
+@media (max-width:431px) {
+    .tel{
+        display: none;
+    }
+    .menyu{
+        display: none;
+    }
+    menu{
+        padding: 20px;
+        margin: 0;
+
+    }
+    .img11{
+        width: 200px;
+    }
+    .img2{
+        display: inline;
+        width: 50px;
+    }
+    .body1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7,300px);
+        gap: 2/0px 0;
+    }
+     .img4{
+         order: -1;
+        width:400px;
+    }
+    .text1{
+        order:0;
+        width: 400px;
+        margin: 0;
+    }
+    .text1 button{
+        width: 90%;
+    }
+    .img5{
+        width: 400px;
+    }
+    .img22{
+        order: 1;
+    }
+     
+    
+
+
+
+}

@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mein{
+   background-color: aqua; 
+   width: 20%;
+   height: 300px;
+   margin-left: 0;
+   
+   animation-name: simple;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+@keyframes simple{
+    0%{
+    background-color: aqua; 
+    margin-left: 0;
+    transform: rotate(0deg);
+    }
+    50%{
+        background-color: blue;
+        margin-left: 75%;
+        transform: rotate(300deg);
+    }
+    100%{
+        background-color: brown;
+        margin-left: 0;
+        transform: rotate(0deg);
+    }
+}
